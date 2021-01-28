@@ -1,0 +1,21 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box {
+    display: flex;
+    background-color: rgb(95, 81, 78);
+    height: 100vh;
+    flex-direction: column;
+    
+}
+
+
+/* .positionNavbar{
+    width: 50em;
+    height: 10em;
+    background-color: aqua;
+    
+} */
