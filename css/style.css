@@ -11,7 +11,24 @@
     flex-direction: column;
     
 }
+@media (min-width: 500px){
+    .box {
+        display: flex;
+        background-color: rgb(95, 81, 78);
+        height: 100vh;
+        flex-direction: column;
+    }
+}
 
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.linkedin {
+    display: flex;
+}
 
 /* .positionNavbar{
     width: 50em;
