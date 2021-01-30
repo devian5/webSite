@@ -6,17 +6,25 @@
 }
 .box {
     display: flex;
-    background-color: rgb(95, 81, 78);
-    height: 100vh;
+    background-color: rgb(17, 17, 17);
+    height: 300vh;
     flex-direction: column;
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     
 }
-@media (min-width: 500px){
+@media (min-width: 450px){
     .box {
         display: flex;
-        background-color: rgb(95, 81, 78);
-        height: 100vh;
+        background-color: rgb(17, 17, 17);
+        height: 200vh;
         flex-direction: column;
+        background-position: center;  
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
 
@@ -26,13 +34,45 @@
     justify-content: space-evenly;
 }
 
-.linkedin {
+.positionTitle {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    
 }
 
-/* .positionNavbar{
-    width: 50em;
-    height: 10em;
-    background-color: aqua;
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.positionPicture {
+    display: flex;
+    justify-content: center;
     
-} */
+    width: 20em;
+    height: 20em;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 35em;
+    height: 40em;
+}
+
+@media (max-width: 500px){
+    .description {
+        display: flex;
+        justify-content: center;
+    
+        width: 20em;
+        height: 30em;
+    }
+    
+}
