@@ -10,3 +10,4 @@ This is the second project from Geekshubs Academy and it is a web page made with
 
 ## GitHub pages
     - I have deployed the web on [GitHub pages](https://devian5.github.io/webSite/) for quick access.
+    
